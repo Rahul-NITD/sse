@@ -1,1 +1,1 @@
-package sse
+package sse_chat

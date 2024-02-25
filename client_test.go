@@ -1,1 +1,1 @@
-package sse_test
+package sse_chat_test
