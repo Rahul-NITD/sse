@@ -8,6 +8,6 @@ import (
 
 func main() {
 	log.Fatal(
-		http.ListenAndServe("localhost:8000", sse_chat.NewChatHandler()),
+		http.ListenAndServe(":8000", sse_chat.NewChatHandler()),
 	)
 }
